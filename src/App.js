@@ -15,6 +15,11 @@ export default function App() {
     updatedList.splice(i, 1);
     setTodoList(updatedList);
   };
+  function Coba(){
+    return(
+      "coba saja"
+    )
+  }
   return (
       <div>
        <Form onAddtodo={addTodo} />
